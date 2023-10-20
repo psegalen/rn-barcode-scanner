@@ -78,14 +78,9 @@ const Scanner: FC<ScannerProps> = ({onClose}) => {
             {d}
           </Text>
         ))}
-      </View>
-      <View
-        style={{
-          position: 'absolute',
-          top: 16,
-          right: 16,
-        }}>
-        <Button title="Close" onPress={onClose} />
+        <View style={{marginTop: 16}}>
+          <Button title="Close" onPress={onClose} />
+        </View>
       </View>
     </View>
   );
